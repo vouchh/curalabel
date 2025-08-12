@@ -29,21 +29,22 @@ export default function Hero() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            {...{ className: "card p-4 md:p-6" }}
           >
-            <img src="/images/main.webp" alt="Medical annotation preview" className="rounded-xl w-full h-auto" />
-            <div className="mt-4 grid grid-cols-3 gap-3 text-center">
-              <div className="card p-3">
-                <div className="text-2xl font-bold">99.2%</div>
-                <div className="text-xs text-slate-400">QA pass rate</div>
-              </div>
-              <div className="card p-3">
-                <div className="text-2xl font-bold">&lt;24h</div>
-                <div className="text-xs text-slate-400">Onrush pilot</div>
-              </div>
-              <div className="card p-3">
-                <div className="text-2xl font-bold">DICOM</div>
-                <div className="text-xs text-slate-400">Native support</div>
+            <div className="card p-4 md:p-6">
+              <img src="/images/main.webp" alt="Medical annotation preview" className="rounded-xl w-full h-auto" />
+              <div className="mt-4 grid grid-cols-3 gap-3 text-center">
+                <div className="card p-3">
+                  <div className="text-2xl font-bold">99.2%</div>
+                  <div className="text-xs text-slate-400">QA pass rate</div>
+                </div>
+                <div className="card p-3">
+                  <div className="text-2xl font-bold">&lt;24h</div>
+                  <div className="text-xs text-slate-400">Onrush pilot</div>
+                </div>
+                <div className="card p-3">
+                  <div className="text-2xl font-bold">DICOM</div>
+                  <div className="text-xs text-slate-400">Native support</div>
+                </div>
               </div>
             </div>
           </motion.div>
