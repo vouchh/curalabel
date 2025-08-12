@@ -1,0 +1,27 @@
+{
+  "name": "curalabel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "11.5.4",
+    "next": "^14.2.31",
+    "nodemailer": "^7.0.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "24.2.1",
+    "@types/react": "19.1.9",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.6.2"
+  }
+}
