@@ -29,7 +29,7 @@ export default function Hero() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            className="card p-4 md:p-6"
+            {...{ className: "card p-4 md:p-6" }}
           >
             <img src="/images/main.webp" alt="Medical annotation preview" className="rounded-xl w-full h-auto" />
             <div className="mt-4 grid grid-cols-3 gap-3 text-center">
